@@ -7,7 +7,6 @@ import Loader from 'react-loader-spinner'
 import {BsPlusSquare, BsDashSquare} from 'react-icons/bs'
 
 import Header from '../Header'
-import SimilarProductItem from '../SimilarProductItem'
 
 import './index.css'
 
@@ -21,7 +20,7 @@ const apiStatusConstants = {
 class ProductItemDetails extends Component {
   state = {
     productData: {},
-    similarProductsData: [],
+
     apiStatus: apiStatusConstants.initial,
     quantity: 1,
   }
@@ -176,15 +175,6 @@ class ProductItemDetails extends Component {
             </button>
           </div>
         </div>
-        <h1 className="similar-products-heading">Similar Products</h1>
-        <ul className="similar-products-list">
-          {similarProductsData.map(eachSimilarProduct => (
-            <SimilarProductItem
-              productDetails={eachSimilarProduct}
-              key={eachSimilarProduct.id}
-            />
-          ))}
-        </ul>
       </div>
     )
   }

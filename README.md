@@ -60,7 +60,7 @@ The app must have the following functionalities
 
 #### API: `https://apis.ccbp.in/products/:id`
 
-#### Example: `http://localhost:3000/products/16`
+#### Example: `http://localhost:3000/products/1`
 
 #### Method: `GET`
 
@@ -82,15 +82,15 @@ Returns a response containing the Product details
   "similar_products":[
     {
       "id":1,
-      "image_url":"https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-cap.png",
-      "title":"Wide Bowknot Hat",
-      "style":"Wide Bowknot Hat for Women and Girls (Multicolor)",
-      "price":288,
-      "description":"This Summer's perfect White Wide Brim Straw Beach hat is perfect for a hot day. It has the Floppy Style which gives you good coverage from the sun's hot rays and is sure to make the right style statement. It is made of high-quality & skin-friendly paper straw material and lightweight. ",
-      "brand":"MAJIK",
-      "total_reviews":245,
-      "rating":3.6,
-      "availability":"In Stock"
+      "image_url":"https://zerogravity.photography/assets/images/2021/04/VISH7371.jpg",
+      "title":"Nallamothu Rakesh",
+      "Age":"28",
+      "Salary":"$13000/Annum"',
+      "Caste":"OC",
+      "Profession":"Software Developer",
+      "Partner_Salary_Preference":"$6000",
+
+
     },
       ...
   ]

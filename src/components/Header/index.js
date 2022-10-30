@@ -18,7 +18,7 @@ const Header = props => {
           <Link to="/">
             <img
               className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGWEVHgv6tP7TwOi9awqfn-7Dv-zqwgZt3Ng&usqp=CAU"
               alt="website logo"
             />
           </Link>
@@ -36,7 +36,7 @@ const Header = props => {
           <Link to="/">
             <img
               className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGWEVHgv6tP7TwOi9awqfn-7Dv-zqwgZt3Ng&usqp=CAU"
               alt="website logo"
             />
           </Link>
@@ -49,13 +49,13 @@ const Header = props => {
 
             <li className="nav-menu-item">
               <Link to="/products" className="nav-link">
-                Products
+                Profiles
               </Link>
             </li>
 
             <li className="nav-menu-item">
               <Link to="/cart" className="nav-link">
-                Cart
+                About us
               </Link>
             </li>
           </ul>
